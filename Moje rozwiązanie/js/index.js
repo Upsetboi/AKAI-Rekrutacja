@@ -47,7 +47,6 @@ fileInput.addEventListener("change", function(event){
 convertButton.addEventListener("click", function(){
     if (!uploadedImage.src) {
         alert("Please upload a file");
-
         return;
     }
 
